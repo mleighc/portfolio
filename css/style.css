@@ -1,0 +1,16 @@
+body {
+    font-size: 16px;
+    line-height: 23px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #353535;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 46px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    color: #131313;
+    margin: 0 0 23px;
+}
