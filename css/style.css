@@ -1,16 +1,118 @@
+/* color combo: https://colorhunt.co/palette/f6f6f6ffbb91ff8e6e515070/?ref=tab */
 body {
     font-size: 16px;
     line-height: 23px;
     font-family: 'Source Sans Pro', sans-serif;
-    color: #353535;
+    color: #515070;
+    background-color: #F6F6F6;
+    margin: 15px;
 }
 
 h1 {
-    font-size: 48px;
-    line-height: 46px;
     font-weight: bold;
     font-style: italic;
     font-family: 'Playfair Display', serif;
-    color: #131313;
-    margin: 0 0 23px;
+    color: #515070;
+    text-align: center;
+    font-size: 52px;
+    margin: 35px 5px 15px 5px;
+    line-height: 60px;
+}
+
+svg {
+    width: 18px;
+    margin: 3px 3px -2px 3px;
+    color: #515070;
+}
+
+.skip {
+    position: absolute;
+    left: -1000px;
+    text-decoration: none;
+
+}
+
+.skip:focus {
+    left: 15px;
+    top: 15px;
+    color: #515070;
+    outline: none;
+    font-weight: 400;
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    align-content: center;
+    align-items: center;
+}
+
+#links>li {
+    font-size: 20px;
+    margin: 5px;
+}
+
+#links>li>a,
+#links>li>a:visited {
+    text-decoration: none;
+    text-transform: lowercase;
+    font-weight: 100;
+    color: #515070
+}
+
+#links>li>a.active {
+    font-weight: 900;
+    text-decoration-line: line-through;
+    text-decoration-color: #FFBB91;
+}
+
+#icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#icons>li {
+    margin: 5px;
+}
+
+#headshot {
+    display: block;
+    margin: 50px auto 50px auto;
+    width: 50%;
+    border-radius: 800px;
+    filter: grayscale(70%);
+}
+
+footer {
+    text-align: center;
+    margin: 15px;
+    font-size: 14px;
+}
+
+#bio {
+    margin: 25px;
+    text-align: center;
+    font-size: 18px;
+}
+
+p+p {
+    margin-top: 20px;
+}
+
+#project {
+    margin: 35px;
+    padding: 50px;
+    text-align: center;
+    background-color: #515070;
+    color: #F6F6F6;
+}
+
+#project>a {
+    color: #F6F6F6;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
 }
