@@ -1,22 +1,37 @@
 /* color combo: https://colorhunt.co/palette/f6f6f6ffbb91ff8e6e515070/?ref=tab */
 body {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 23px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro Light 300', sans-serif;
+    font-weight: 200;
     color: #515070;
     background-color: #F6F6F6;
     margin: 15px;
 }
 
 h1 {
-    font-weight: bold;
+    font-weight: 800;
     font-style: italic;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display ExtraBold 800 Italic', serif;
     color: #515070;
     text-align: center;
     font-size: 48px;
     margin: 35px 5px 15px 5px;
     line-height: 50px;
+}
+
+h2 {
+    color: #FF8E6E;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+h3 {
+    color: #FF8E6E;
+    font-family: 'Playfair Display Regular 400 Italic', serif;
+    font-size: 16px;
 }
 
 svg {
@@ -42,30 +57,31 @@ svg {
 
 #links {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     margin-top: 10px;
-    align-content: center;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 #links>li {
     font-size: 20px;
-    margin: 5px;
+    font-weight: 350;
+    margin: 8px;
 }
 
 #links>li>a,
 #links>li>a:visited {
     text-decoration: none;
     text-transform: lowercase;
-    font-weight: 100;
     color: #515070
 }
 
 #links>li>a.active {
-    font-weight: 900;
+    font-weight: 400;
     text-decoration-line: line-through;
     text-decoration-color: #FFBB91;
+    text-decoration-thickness: 2.5px;
 }
 
 #icons {
@@ -84,6 +100,15 @@ svg {
     width: 50%;
     border-radius: 800px;
     filter: grayscale(70%);
+    -webkit-box-shadow: 1px 1px 35px 3px #515070;
+    box-shadow: 1px 1px 35px 3px #515070;
+
+}
+
+p {
+    font-family: 'Source Sans Pro Light 300', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
 }
 
 footer {
@@ -108,11 +133,20 @@ p+p {
     text-align: center;
     background-color: #515070;
     color: #F6F6F6;
+    -webkit-box-shadow: 1px 1px 20px 3px #515070;
+    box-shadow: 1px 1px 20px 3px #515070;
+}
+
+#project:hover {
+    -webkit-box-shadow: 1px 1px 35px 5px #515070;
+    box-shadow: 1px 1px 35px 5px #515070;
+}
+
+#project>h2 {
+    margin: 15px;
 }
 
 #project>a {
     color: #F6F6F6;
     text-decoration: none;
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
 }
