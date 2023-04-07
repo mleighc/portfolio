@@ -14,7 +14,7 @@ h1 {
     font-family: 'Playfair Display', serif;
     color: #515070;
     text-align: center;
-    font-size: 52px;
+    font-size: 48px;
     margin: 35px 5px 15px 5px;
     line-height: 60px;
 }
@@ -80,7 +80,7 @@ svg {
 
 #headshot {
     display: block;
-    margin: 50px auto 50px auto;
+    margin: 40px auto 40px auto;
     width: 50%;
     border-radius: 800px;
     filter: grayscale(70%);
