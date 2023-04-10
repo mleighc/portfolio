@@ -16,6 +16,14 @@ main#mainstuff {
     flex-wrap: wrap;
 }
 
+#mainstuff\ projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
 h1 {
     font-family: 'League Spartan', sans-serif;
     font-size: 48px;
@@ -33,6 +41,7 @@ h2 {
     color: #000000;
     font-weight: 600;
     text-align: center;
+    margin: 20px;
 }
 
 h3 {
@@ -77,6 +86,7 @@ svg {
     margin: 10px;
     background-color: #000000;
     padding: 8px 55px;
+    border-radius: 3px;
 }
 
 #links>li>a,
@@ -86,13 +96,12 @@ svg {
     color: #ffffff;
 }
 
+
 #links>li>a.active {
-    /* font-weight: 350;
-    text-decoration-line: overline;
-    text-underline-offset: 10px;
-    text-decoration-color: #043694;
-    text-decoration-thickness: 4px; */
+    /* color: #ffffff; */
+
 }
+
 
 #icons {
     display: flex;
@@ -106,14 +115,12 @@ svg {
 
 #photo {
     display: block;
-    margin: 30px auto 30px auto;
+    /* margin: 0 auto 0 auto; */
     width: 100%;
-    /* padding: 20px 20px 95px 20px; */
-    background-color: white;
+    padding: 5px 30px 5px 30px;
+    background-color: #000000;
     /* border-radius: 800px; */
     /* filter: grayscale(70%); */
-    -webkit-box-shadow: 1px 1px 35px 3px #515070;
-    box-shadow: 1px 1px 35px 3px #515070;
 
 }
 
@@ -125,7 +132,7 @@ p {
 
 footer {
     text-align: center;
-    padding: 20px 20px 45px 20px;
+    padding: 20px 20px 30px 20px;
     font-size: 12px;
 
 }
@@ -138,16 +145,31 @@ footer {
 
 #bio>h1 {
     font-size: 36px;
+    margin: 15px;
 }
 
 p+p {
     margin-top: 20px;
 }
 
-#project {}
+#project {
+    text-align: center;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 3px;
+    background-color: #000000;
+}
 
-#project:hover {}
+#project:hover {
+    -webkit-box-shadow: 1px 1px 35px 3px #776150;
+    box-shadow: 1px 1px 25px 3px #776150;
+}
 
-#project>h2 {}
+#project>a>h2 {
+    color: #ffffff;
+    text-decoration: none;
+}
 
-#project>a {}
+#contact\ grid {
+    display: grid;
+}
