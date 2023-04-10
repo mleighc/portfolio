@@ -10,6 +10,12 @@ body {
     /* overflow: hidden; */
 }
 
+main#mainstuff {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 h1 {
     font-family: 'League Spartan', sans-serif;
     font-size: 48px;
@@ -22,13 +28,15 @@ h1 {
 }
 
 h2 {
-    font-family: 'Gentium Book Plus', serif;
+    font-family: 'Sanchez', serif;
     font-size: 24px;
     color: #000000;
+    font-weight: 600;
+    text-align: center;
 }
 
 h3 {
-    font-family: 'Gentium Book Plus', serif;
+    font-family: 'Sanchez', serif;
     font-size: 18px;
     color: #000000;
 }
@@ -56,7 +64,7 @@ svg {
 
 #links {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     padding: 20px;
     align-items: center;
@@ -66,7 +74,7 @@ svg {
 #links>li {
     font-size: 18px;
     font-weight: 200;
-    margin: 8px;
+    margin: 10px;
     background-color: #000000;
     padding: 8px 55px;
 }
@@ -99,7 +107,7 @@ svg {
 #photo {
     display: block;
     margin: 30px auto 30px auto;
-    width: 50%;
+    width: 100%;
     /* padding: 20px 20px 95px 20px; */
     background-color: white;
     /* border-radius: 800px; */
@@ -112,6 +120,7 @@ svg {
 p {
     font-size: 16px;
     line-height: 22px;
+    margin: 20px;
 }
 
 footer {
