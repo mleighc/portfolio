@@ -26,7 +26,7 @@ main#mainstuff {
 
 h1 {
     font-family: 'League Spartan', sans-serif;
-    font-size: 44px;
+    font-size: 42px;
     /* text-transform: uppercase; */
     margin: 100px 10px 10px 7px;
     text-align: center;
@@ -214,7 +214,7 @@ object {
 .resume>h1 {
     text-align: left;
     color: black;
-    font-size: 44px;
+    font-size: 42px;
     margin: 100px 10px 10px 7px;
 }
 
