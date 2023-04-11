@@ -24,6 +24,12 @@ main#mainstuff {
     align-items: stretch;
 }
 
+#mainstuff\ resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 h1 {
     font-family: 'League Spartan', sans-serif;
     font-size: 48px;
@@ -115,13 +121,21 @@ svg {
 
 #photo {
     display: block;
-    /* margin: 0 auto 0 auto; */
+    margin: 0 auto 0 auto;
     width: 100%;
     padding: 5px 30px 5px 30px;
-    background-color: #000000;
+    /* background-color: #000000; */
     /* border-radius: 800px; */
     /* filter: grayscale(70%); */
+}
 
+#headshot {
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 40%;
+    border-radius: 100px;
+    -webkit-box-shadow: 1px 1px 2px 2px #776150;
+    box-shadow: 1px 1px 2px 2px #776150;
 }
 
 p {
@@ -172,4 +186,9 @@ p+p {
 
 #contact\ grid {
     display: grid;
+}
+
+object {
+    display: block;
+    margin: 5px auto 5px auto;
 }
