@@ -1,4 +1,4 @@
-/* color scheme: Tan: #d5c1a7; Light Blue: #3960a2; Dark Blue: #043694; Light Brown: #776150  
+/* color scheme: Tan: #d5c1a7; Light Blue: #3960a2; Dark Blue: #043694; Light Brown: #776150
 Dark Brown: #30221d; */
 html,
 body {
@@ -186,26 +186,65 @@ object {
     display: none;
 }
 
+#section {
+    border: none;
+    border-top: 5px solid #000000;
+    color: #000000;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    margin: 5px;
+}
+
+#inner-section {
+    border: none;
+    border-top: 2px solid #000000;
+    color: #000000;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    margin: 5px;
+}
+
+.resume {
+    display: flex;
+    flex-direction: column;
+}
+
 .resume>h1 {
+    text-align: left;
     color: black;
-    font-size: 36px;
-    margin: 25px 0 15px 0;
+    font-size: 50px;
+    margin: 100px 10px 10px 7px;
+}
+
+.resume>h2 {
+    font-family: 'League Spartan', sans-serif;
+    color: black;
+    font-size: 26px;
+    text-align: left;
+    font-weight: 900;
+    margin: 10px 15px 4px 7px;
+}
+
+h2+h2 {
+    background-color: red;
+}
+
+.resume>h3 {
+    font-family: 'League Spartan', sans-serif;
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 900;
+    margin: 10px 15px 4px 7px;
 }
 
 .resume>.p,
 .resume>p {
     color: black;
-    font-size: 12.5pt;
-    margin: 15px;
-}
-
-
-.resume>h2 {
-    color: black;
-    font-size: 12.5pt;
-    text-align: left;
-    font-weight: 900;
-    margin: 15px;
+    font-size: 12pt;
+    margin: 5px 15px 15px 7px;
 }
 
 .s1 {
@@ -214,10 +253,17 @@ object {
     font-size: 12pt;
 }
 
-p.details {
-    text-align: center;
-    font-size: 12.5px;
-    margin: 5px;
+.details {
+    display: flex;
+    font-size: 14px;
+    margin: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.details li {
+    margin: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -232,3 +278,5 @@ p.details {
         margin: 5px auto 5px auto;
     }
 }
+
+/* resume inspiration: https://www.martinemyrup.com/cv.html?hubs_content=blog.hubspot.com%252Fmarketing%252Fbest-personal-websites&hubs_content-cta=Personal%2520Resume%2520Websites */
