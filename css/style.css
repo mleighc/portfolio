@@ -24,12 +24,6 @@ main#mainstuff {
     align-items: stretch;
 }
 
-#mainstuff\ resume {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 h1 {
     font-family: 'League Spartan', sans-serif;
     font-size: 42px;
@@ -189,6 +183,52 @@ p+p {
 }
 
 object {
-    display: block;
-    margin: 5px auto 5px auto;
+    display: none;
+}
+
+.resume>h1 {
+    color: black;
+    font-size: 36px;
+    margin: 25px 0 15px 0;
+}
+
+.resume>.p,
+.resume>p {
+    color: black;
+    font-size: 12.5pt;
+    margin: 15px;
+}
+
+
+.resume>h2 {
+    color: black;
+    font-size: 12.5pt;
+    text-align: left;
+    font-weight: 900;
+    margin: 15px;
+}
+
+.s1 {
+    color: black;
+    font-style: italic;
+    font-size: 12pt;
+}
+
+p.details {
+    text-align: center;
+    font-size: 12.5px;
+    margin: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    object {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    object {
+        display: block;
+        margin: 5px auto 5px auto;
+    }
 }
