@@ -1,10 +1,10 @@
-/* color scheme: Tan: #d5c1a7; Light Blue: #3960a2; Dark Blue: #043694; Light Brown: #776150
+/* color scheme: Tan: #e2d0b9; Light Blue: #3960a2; Dark Blue: #043694; Light Brown: #776150
 Dark Brown: #30221d; */
 html,
 body {
     font-family: 'Sanchez', serif;
     /* margin: 20px; */
-    background-color: #d5c1a7;
+    background-color: #e2d0b9;
     color: #000000;
     height: 100%;
     /* overflow: hidden; */
@@ -26,9 +26,9 @@ main#mainstuff {
 
 h1 {
     font-family: 'League Spartan', sans-serif;
-    font-size: 42px;
+    font-size: 50px;
     /* text-transform: uppercase; */
-    margin: 30px;
+    margin: 100px 10px 10px 7px;
     text-align: center;
     color: #000000;
     font-weight: 900;
@@ -227,8 +227,8 @@ object {
     margin: 10px 15px 4px 7px;
 }
 
-h2+h2 {
-    background-color: red;
+h3+h3 {
+    font-size: 16px;
 }
 
 .resume>h3 {
@@ -240,22 +240,34 @@ h2+h2 {
     margin: 10px 15px 4px 7px;
 }
 
-.resume>.p,
-.resume>p {
+.bullets {
     color: black;
-    font-size: 12pt;
-    margin: 5px 15px 15px 7px;
+    font-size: 11pt;
+    margin: 5px 15px 10px 20px;
 }
 
 .s1 {
     color: black;
     font-style: italic;
     font-size: 12pt;
+    margin: 10px 15px 4px 7px;
+}
+
+.skills {
+    color: black;
+    font-size: 11pt;
+    margin: 10px 15px 4px 7px;
+}
+
+.courses {
+    color: black;
+    font-size: 11pt;
+    margin: 10px 15px 10px 7px;
 }
 
 .details {
     display: flex;
-    font-size: 14px;
+    font-size: 16px;
     margin: 10px;
     flex-direction: row;
     flex-wrap: wrap;
