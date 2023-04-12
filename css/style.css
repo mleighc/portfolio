@@ -385,11 +385,7 @@ h3+h3 {
     }
 
     .centered>h2 {
-        font-family: 'League Spartan', sans-serif;
-        font-size: 60px;
-        color: #ffffff;
-        text-shadow: 2px 3px 2px #043694;
-        opacity: 90%;
+        font-size: 65px;
     }
 }
 
@@ -400,21 +396,17 @@ h3+h3 {
         margin: 5px auto 5px auto; */
     }
 
-    #mainstuff\ about {
-        display: grid;
-        grid-template-columns: 49% 49%;
-        justify-content: center;
-        /* column-gap: 10px; */
-    }
-
     #bio {
         grid-column-start: span 2;
         margin: 10px;
     }
 
-    #photo {
-        padding: 0;
+    .container {
+        margin: 0 50px 0 50px;
+    }
 
+    .centered>h2 {
+        font-size: 75px;
     }
 
     #inner-section {
