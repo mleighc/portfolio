@@ -26,7 +26,7 @@ main#mainstuff {
 
 h1 {
     font-family: 'League Spartan', sans-serif;
-    font-size: 32px;
+    font-size: 40px;
     /* text-transform: uppercase; */
     padding: 30px 15px 5px 15px;
     text-align: center;
@@ -119,6 +119,27 @@ header {
 
 #icons>li {
     margin: 5px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered>h2 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 2px 3px 2px #043694;
+    opacity: 90%;
+}
+
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #photo {
@@ -301,7 +322,7 @@ h3+h3 {
 @media screen and (min-width: 768px) {
 
     h1 {
-        font-size: 62px;
+        font-size: 70px;
     }
 
     object {
@@ -321,35 +342,6 @@ h3+h3 {
 
     #inner-section {
         width: 100%;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    object {
-        display: none;
-        /* display: block;
-        margin: 5px auto 5px auto; */
-    }
-
-    #mainstuff\ about {
-        display: grid;
-        grid-template-columns: 49% 49%;
-        justify-content: center;
-        /* column-gap: 10px; */
-    }
-
-    #bio {
-        grid-column-start: span 2;
-        margin: 10px;
-    }
-
-    #photo {
-        padding: 0;
-
-    }
-
-    #inner-section {
-        display: none;
     }
 
     header {
@@ -391,6 +383,45 @@ h3+h3 {
         text-transform: lowercase;
         color: #000000;
     }
+
+    .centered>h2 {
+        font-family: 'League Spartan', sans-serif;
+        font-size: 60px;
+        color: #ffffff;
+        text-shadow: 2px 3px 2px #043694;
+        opacity: 90%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    object {
+        display: none;
+        /* display: block;
+        margin: 5px auto 5px auto; */
+    }
+
+    #mainstuff\ about {
+        display: grid;
+        grid-template-columns: 49% 49%;
+        justify-content: center;
+        /* column-gap: 10px; */
+    }
+
+    #bio {
+        grid-column-start: span 2;
+        margin: 10px;
+    }
+
+    #photo {
+        padding: 0;
+
+    }
+
+    #inner-section {
+        display: none;
+    }
+
+
 }
 
 /* resume inspiration: 
