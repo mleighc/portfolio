@@ -26,9 +26,9 @@ main#mainstuff {
 
 h1 {
     font-family: 'League Spartan', sans-serif;
-    font-size: 40px;
+    font-size: 32px;
     /* text-transform: uppercase; */
-    margin: 100px 10px 20px 7px;
+    padding: 30px 15px 5px 15px;
     text-align: center;
     color: #000000;
     font-weight: 900;
@@ -71,37 +71,45 @@ svg {
     font-weight: 400;
 }
 
-#links {
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px;
+}
+
+#links-left {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    padding: 20px;
-    align-items: center;
-    justify-content: space-evenly;
 }
 
-#links>li {
-    font-size: 18px;
-    font-weight: 200;
-    margin: 10px;
-    background-color: #000000;
-    padding: 8px 55px;
-    border-radius: 3px;
+#links-left>li {
+    padding: 15px 20px 0 20px;
 }
 
-#links>li>a,
-#links>li>a:visited {
+#links-left>li>a,
+#links-left>li>a:visited {
     text-decoration: none;
     text-transform: lowercase;
-    color: #ffffff;
+    color: #000000;
 }
 
-
-#links>li>a.active {
-    /* color: #ffffff; */
-
+#links-right {
+    display: flex;
+    flex-direction: column;
 }
 
+#links-right>li {
+    padding: 15px 20px 0 20px;
+}
+
+#links-right>li>a,
+#links-right>li>a:visited {
+    text-decoration: none;
+    text-transform: lowercase;
+    color: #000000;
+}
 
 #icons {
     display: flex;
@@ -188,19 +196,19 @@ object {
 
 #section {
     border: none;
-    width: 99%;
+    width: 100%;
     align-self: center;
     border-top: 5px solid #000000;
     color: #000000;
     overflow: visible;
-    text-align: center;
+    /* text-align: center; */
     height: 5px;
-    margin: 5px;
+    /* margin: 15px; */
 }
 
 #inner-section {
     border: none;
-    width: 99%;
+    width: 98%;
     align-self: center;
     border-top: 2px solid #000000;
     color: #000000;
@@ -291,6 +299,11 @@ h3+h3 {
 }
 
 @media screen and (min-width: 768px) {
+
+    h1 {
+        font-size: 62px;
+    }
+
     object {
         display: none;
     }
@@ -303,13 +316,11 @@ h3+h3 {
     }
 
     #section {
-        align-self: left;
-        width: 99%;
+        width: 100%;
     }
 
     #inner-section {
-        align-self: left;
-        width: 99%;
+        width: 100%;
     }
 }
 
@@ -319,6 +330,69 @@ h3+h3 {
         /* display: block;
         margin: 5px auto 5px auto; */
     }
+
+    #mainstuff\ about {
+        display: grid;
+        grid-template-columns: 49% 49%;
+        justify-content: center;
+        /* column-gap: 10px; */
+    }
+
+    #bio {
+        grid-column-start: span 2;
+        margin: 10px;
+    }
+
+    #photo {
+        padding: 0;
+
+    }
+
+    #inner-section {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 50px;
+    }
+
+    #links-left {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #links-left>li {
+        padding: 15px 20px 0 20px;
+    }
+
+    #links-left>li>a,
+    #links-left>li>a:visited {
+        text-decoration: none;
+        text-transform: lowercase;
+        color: #000000;
+    }
+
+    #links-right {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #links-right>li {
+        padding: 15px 20px 0 20px;
+    }
+
+    #links-right>li>a,
+    #links-right>li>a:visited {
+        text-decoration: none;
+        text-transform: lowercase;
+        color: #000000;
+    }
 }
 
-/* resume inspiration: https://www.martinemyrup.com/cv.html?hubs_content=blog.hubspot.com%252Fmarketing%252Fbest-personal-websites&hubs_content-cta=Personal%2520Resume%2520Websites */
+/* resume inspiration: 
+1. https://www.martinemyrup.com/cv.html?hubs_content=blog.hubspot.com%252Fmarketing%252Fbest-personal-websites&hubs_content-cta=Personal%2520Resume%2520Websites 
+2. https://www.alishaselena.com/*/
