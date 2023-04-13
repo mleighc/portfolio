@@ -163,7 +163,6 @@ footer {
     text-align: center;
     padding: 20px 20px 30px 20px;
     font-size: 12px;
-
 }
 
 #bio {
@@ -381,6 +380,21 @@ h3+h3 {
     .centered>h2 {
         font-size: 60px;
     }
+
+    #mainstuff\ projects {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: stretch;
+        margin: 50px;
+    }
+
+    #project {
+        padding: 40px;
+    }
+
+    #project>a>h2 {
+        font-size: 28px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -456,6 +470,14 @@ h3+h3 {
 
     .details li {
         margin: 10pt;
+    }
+
+    #mainstuff\ projects {
+        margin: 100px;
+    }
+
+    #project {
+        padding: 70px;
     }
 }
 
