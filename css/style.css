@@ -129,7 +129,7 @@ header {
 
 .centered>h2 {
     font-family: 'League Spartan', sans-serif;
-    font-size: 50px;
+    font-size: 46px;
     color: #ffffff;
     text-shadow: 2px 3px 2px #043694;
     opacity: 90%;
@@ -241,13 +241,6 @@ object {
 .resume {
     display: flex;
     flex-direction: column;
-}
-
-.resume>h1 {
-    text-align: center;
-    color: black;
-    font-size: 40px;
-    margin: 100px 10px 20px 7px;
 }
 
 .resume>h2 {
@@ -385,7 +378,7 @@ h3+h3 {
     }
 
     .centered>h2 {
-        font-size: 65px;
+        font-size: 60px;
     }
 }
 
@@ -396,11 +389,6 @@ h3+h3 {
         margin: 5px auto 5px auto; */
     }
 
-    #bio {
-        grid-column-start: span 2;
-        margin: 10px;
-    }
-
     .container {
         margin: 0 50px 0 50px;
     }
@@ -409,11 +397,65 @@ h3+h3 {
         font-size: 75px;
     }
 
-    #inner-section {
-        display: none;
+    #bio {
+        margin: 100px;
+        text-align: center;
+        font-size: 16px;
     }
 
+    #bio>h1 {
+        font-size: 40px;
+        margin: 20px;
+    }
 
+    .resume>h2 {
+        font-size: 36px;
+        margin: 8px 0 5px 20px;
+    }
+
+    .resume>h3 {
+        font-size: 24px;
+        margin: 8px 0 5px 20px;
+    }
+
+    .bullets>p {
+        font-size: 14pt;
+        margin: 5px 0 12px 25px;
+    }
+
+    .bullets p:last-of-type {
+        margin: 5px 0 20px 25px;
+    }
+
+    .s1 {
+        font-size: 15pt;
+        margin: 8px 0 15px 20px;
+    }
+
+    .skills>p {
+        color: black;
+        font-size: 13pt;
+        margin: 8px 0 5px 20px;
+    }
+
+    .skills>p:last-of-type {
+        margin: 8px 0 5px 20px;
+    }
+
+    .courses {
+        color: black;
+        font-size: 14pt;
+        margin: 10px 15px 20px 20px;
+    }
+
+    .details {
+        font-size: 13pt;
+        margin: 35px;
+    }
+
+    .details li {
+        margin: 10pt;
+    }
 }
 
 /* resume inspiration: 
