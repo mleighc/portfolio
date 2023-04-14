@@ -219,7 +219,7 @@ object {
     display: none;
 }
 
-#section {
+.section {
     border: none;
     width: 100%;
     align-self: center;
@@ -231,7 +231,7 @@ object {
     /* margin: 15px; */
 }
 
-#inner-section {
+.inner-section {
     border: none;
     width: 98%;
     align-self: center;
@@ -333,11 +333,11 @@ h3+h3 {
         margin: 100px 10px 5px 7px;
     }
 
-    #section {
+    .section {
         width: 100%;
     }
 
-    #inner-section {
+    .inner-section {
         width: 100%;
     }
 
