@@ -48,6 +48,10 @@ svg {
     color: #000000;
 }
 
+.top {
+    color: #000000;
+}
+
 .skip {
     position: absolute;
     left: -1000px;
@@ -58,7 +62,7 @@ svg {
 .skip:focus {
     left: 15px;
     top: 15px;
-    color: #F6F6F6;
+    color: #000000;
     outline: none;
     font-weight: 400;
 }
