@@ -16,7 +16,8 @@ main#mainstuff {
     flex-wrap: wrap;
 }
 
-h1 {
+h1,
+h1>a {
     font-family: 'League Spartan', sans-serif;
     font-size: 40px;
     /* text-transform: uppercase; */
@@ -24,6 +25,7 @@ h1 {
     text-align: center;
     color: #000000;
     font-weight: 900;
+    text-decoration: none;
     /* font-weight: bolder; */
 }
 
@@ -318,7 +320,8 @@ h3+h3 {
 
 @media screen and (min-width: 768px) {
 
-    h1 {
+    h1,
+    h1>a {
         font-size: 70px;
     }
 
